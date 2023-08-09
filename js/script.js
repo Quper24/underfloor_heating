@@ -51,7 +51,7 @@ calcForm.addEventListener('submit', (event) => {
     calcResultWrapper.classList.add('calc__result-wrapper_show');
     calcOrder.classList.add('calc__order_show')
     totalSquare.textContent = `${square} кв м`;
-    totalPrice.textContent = `${price} руб`;
+    totalPrice.textContent = `${price.toLocaleString()} руб`;
   }
 })
 
